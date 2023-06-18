@@ -9,9 +9,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 235vh;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -878,7 +880,7 @@ button p {
     margin-left: 390px;
 }
 
-.thr{
+.thr {
     margin-left: 22px;
     display: flex;
     width: 434px;
@@ -906,7 +908,7 @@ button p {
     color: #000000;
 }
 
-.example{
+.example {
     margin-left: 55px;
     display: flex;
     width: 400px;
@@ -933,4 +935,59 @@ button p {
     line-height: 22px;
     letter-spacing: 0.02em;
     color: #000000;
+}
+
+
+.blue-circle1 {
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 1335px;
+    top: 1490px;
+    border-radius: 50%;
+    background: #0029FF;
+}
+
+.blue-circle1 img {
+    margin-top: 17px;
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+}
+
+.blue-circle2 {
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 1335px;
+    top: 1596px;
+    border-radius: 50%;
+    background: #0029FF;
+}
+
+.blue-circle2 img {
+    width: 46px;
+    height: 46px;
+    margin-top: 17px;
+}
+.blue-circle3 {
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 1335px;
+    top: 1702px;
+    border-radius: 50%;
+    background: #0029FF;
+}
+
+.blue-circle3 img {
+    width: 46px;
+    height: 46px;
+    margin-top: 17px;
 }
